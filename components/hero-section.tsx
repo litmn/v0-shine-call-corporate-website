@@ -21,11 +21,11 @@ export function HeroSection() {
         <div className="max-w-2xl">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary">
             <Sparkles className="h-4 w-4" />
-            <span>Trusted by 500+ happy customers</span>
+            <span>Хамтрагчид 100+</span>
           </div>
           
           <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl text-balance">
-            Professional Cleaning You Can Trust
+            Итгэж болох мэргэжлийн цэвэрлэгээ
           </h1>
           
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
