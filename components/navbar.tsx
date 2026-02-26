@@ -6,11 +6,11 @@ import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "Mission", href: "#mission" },
-  { label: "Services", href: "#services" },
-  { label: "Why Us", href: "#why-us" },
-  { label: "Contact", href: "#contact" },
+  { label: "Бидний тухай", href: "#about" },
+  { label: "Зорилго", href: "#mission" },
+  { label: "Үйлчилгээ", href: "#services" },
+  { label: "Яагаад биднийг гэж", href: "#why-us" },
+  { label: "Холбоо барих", href: "#contact" },
 ]
 
 export function Navbar() {
@@ -25,11 +25,10 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#" className="flex items-center gap-2">
@@ -49,9 +48,8 @@ export function Navbar() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  scrolled ? "text-foreground" : "text-foreground/80"
-                }`}
+                className={`text-sm font-medium transition-colors hover:text-primary ${scrolled ? "text-foreground" : "text-foreground/80"
+                  }`}
               >
                 {link.label}
               </a>
@@ -61,7 +59,7 @@ export function Navbar() {
 
         <div className="hidden md:block">
           <Button asChild className="bg-gradient-to-r from-[#0066CC] to-[#00CED1] text-white hover:opacity-90 rounded-full px-6">
-            <a href="#contact">Book Now</a>
+            <a href="#contact">Захилах</a>
           </Button>
         </div>
 

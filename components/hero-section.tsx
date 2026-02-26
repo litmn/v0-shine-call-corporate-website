@@ -23,15 +23,15 @@ export function HeroSection() {
             <Sparkles className="h-4 w-4" />
             <span>Trusted by 500+ happy customers</span>
           </div>
-          
+
           <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl text-balance">
-            Professional Cleaning You Can Trust
+            Итгэж болох мэргэжлийн цэвэрлэгээ
           </h1>
-          
+
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
             We deliver fast, safe, and high-quality cleaning services for homes and offices using internationally standardized products.
           </p>
-          
+
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <Button asChild size="lg" className="bg-gradient-to-r from-[#0066CC] to-[#00CED1] text-white hover:opacity-90 rounded-full px-8 text-base shadow-lg shadow-[#0066CC]/25">
               <a href="#contact">Book a Cleaning</a>
@@ -42,7 +42,7 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-      
+
       {/* Decorative bottom wave */}
       <div className="absolute bottom-0 left-0 right-0 z-10">
         <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">

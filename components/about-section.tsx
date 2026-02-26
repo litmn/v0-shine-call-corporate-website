@@ -32,7 +32,7 @@ export function AboutSection() {
             About Us
           </span>
           <h2 className="mt-3 font-[family-name:var(--font-heading)] text-3xl font-bold text-foreground md:text-4xl text-balance">
-            Who We Are
+            Бид хэн бэ
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
             ShineCall is a professional cleaning company established in 2025 with a team of 10 skilled staff members. We provide reliable on-demand cleaning services for homes and offices using internationally standardized cleaning products.
