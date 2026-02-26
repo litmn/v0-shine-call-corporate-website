@@ -6,11 +6,11 @@ import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "Mission", href: "#mission" },
-  { label: "Services", href: "#services" },
-  { label: "Why Us", href: "#why-us" },
-  { label: "Contact", href: "#contact" },
+  { label: "Бидний тухай", href: "#about" },
+  { label: "Зорилго", href: "#mission" },
+  { label: "Үйлчилгээ", href: "#services" },
+  { label: "Яагаад бид гэж", href: "#why-us" },
+  { label: "Холбоо барих", href: "#contact" },
 ]
 
 export function Navbar() {
