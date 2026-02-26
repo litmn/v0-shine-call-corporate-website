@@ -33,9 +33,9 @@ export function Footer() {
             <Image
               src="/images/logo.png"
               alt="ShineCall Logo"
-              width={130}
-              height={42}
-              className="h-10 w-auto brightness-200"
+              width={200}
+              height={64}
+              className="h-14 w-auto brightness-200"
             />
             <p className="mt-4 text-sm leading-relaxed text-background/60">
               Professional cleaning services you can trust. Founded in 2025, serving homes and offices with international standards.
