@@ -33,7 +33,7 @@ export function HeroSection() {
           </p>
           
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 text-base shadow-lg shadow-primary/25">
+            <Button asChild size="lg" className="bg-gradient-to-r from-[#0066CC] to-[#00CED1] text-white hover:opacity-90 rounded-full px-8 text-base shadow-lg shadow-[#0066CC]/25">
               <a href="#contact">Book a Cleaning</a>
             </Button>
             <Button asChild size="lg" variant="outline" className="rounded-full px-8 text-base border-primary/30 text-primary hover:bg-primary/5">

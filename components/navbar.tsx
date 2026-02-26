@@ -60,7 +60,7 @@ export function Navbar() {
         </ul>
 
         <div className="hidden md:block">
-          <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6">
+          <Button asChild className="bg-gradient-to-r from-[#0066CC] to-[#00CED1] text-white hover:opacity-90 rounded-full px-6">
             <a href="#contact">Book Now</a>
           </Button>
         </div>
@@ -91,7 +91,7 @@ export function Navbar() {
               </li>
             ))}
             <li className="pt-2">
-              <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
+              <Button asChild className="w-full bg-gradient-to-r from-[#0066CC] to-[#00CED1] text-white hover:opacity-90 rounded-full">
                 <a href="#contact" onClick={() => setMobileOpen(false)}>Book Now</a>
               </Button>
             </li>

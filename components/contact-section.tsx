@@ -127,7 +127,7 @@ export function ContactSection() {
                   />
                 </div>
 
-                <Button type="submit" size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 rounded-full text-base">
+                <Button type="submit" size="lg" className="w-full bg-gradient-to-r from-[#0066CC] to-[#00CED1] text-white hover:opacity-90 rounded-full text-base">
                   Send Request
                 </Button>
               </form>
